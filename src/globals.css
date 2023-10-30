@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ///////////////////////////header */
+.header {
+    @apply flex items-center justify-between py-4 h-16;
+    background-color: wheat;
+  }
+  
+  .header a {
+    @apply text-lg font-semibold text-black hover:text-gray-700;
+  }
+  
+  .header .nav {
+    @apply flex items-center space-x-4;
+  }
+
+
+
+/* /////////////////// Footer */
+
+
+.footer {
+  background-color: #302f2f;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer .social-media a {
+  font-size: 20px;
+}
