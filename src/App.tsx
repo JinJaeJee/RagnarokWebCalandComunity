@@ -10,15 +10,15 @@ const App = () => {
 
   return (
     <Layout>
-      <DropdownList label='Hat' options={[{value: 'Rideword Hat'}]}/>
-      <DropdownList label='Middle' options={[{value: 'Eye Patched'}]}/>
-      <DropdownList label='Lower' options={[{value: 'Mob scarf'}]}/>
-      <DropdownList label='Weapon' options={[{value: 'Blade Katar'}]}/>
-      <DropdownList label='Armor' options={[{value: 'Illusion Armor A'}]}/>
-      <DropdownList label='Garment' options={[{value: 'Illusion Wing A'}]}/>
-      <DropdownList label='Boots' options={[{value: 'Illusion Shoes A'}]}/>
-      <DropdownList label='Acc.L ' options={[{value: 'Illusion Booster L'}]}/>
-      <DropdownList label='Acc.R ' options={[{value: 'Illusion Booster R'}]}/>
+      <DropdownList label='Hat' options={[{value: 'Rideword Hat', str: "10"}]}/>
+      <DropdownList label='Middle' options={[{value: 'Eye Patched', str: "10"}]}/>
+      <DropdownList label='Lower' options={[{value: 'Mob scarf', str: "10"}]}/>
+      <DropdownList label='Weapon' options={[{value: 'Blade Katar', str: "10"}]}/>
+      <DropdownList label='Armor' options={[{value: 'Illusion Armor A', str: "10"}]}/>
+      <DropdownList label='Garment' options={[{value: 'Illusion Wing A', str: "10"}]}/>
+      <DropdownList label='Boots' options={[{value: 'Illusion Shoes A', str: "10"}]}/>
+      <DropdownList label='Acc.L ' options={[{value: 'Illusion Booster L', str: "10"}]}/>
+      <DropdownList label='Acc.R ' options={[{value: 'Illusion Booster R', str: "10"}]}/>
     </Layout>
   )
 }
